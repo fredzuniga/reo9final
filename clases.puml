@@ -1,0 +1,8 @@
+@startuml
+class java.util.ArrayList
+class reto9.Pelota
+class reto9.Reto9
+class reto9_2.Ayudante
+reto9.Reto9 ..> java.util.ArrayList
+reto9.Reto9 ..> reto9_2.Ayudante
+@enduml
